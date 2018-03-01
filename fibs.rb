@@ -18,7 +18,6 @@ def fibs_rec(ary, num)
     return [1,1] if num == 1
     ary = fibs_rec(ary, num - 1)
     ary << ary[-1] + ary[-2]
-
 end
 
 puts fibs(20)
